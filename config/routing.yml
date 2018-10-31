@@ -1,0 +1,13 @@
+# home
+root:
+    path: /
+    defaults:
+        resource: "landing"
+    methods: [GET, POST]
+    
+stripe:
+    path: /{resource}{slash}{action}
+    requirements:
+        resource: "stripe"
+        slash: "[/]{0,1}"
+    methods: [GET, POST, PUT, DELETE]
