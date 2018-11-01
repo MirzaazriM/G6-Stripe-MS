@@ -1,6 +1,0 @@
-parameters:
-
-        database.dsn: 'mysql:host=35.238.51.199;dbname=g6'
-
-        config:
-            api_key: 'sk_live_ptCDCVJSQfrlzeBXuUZAR9ol' # sk_test_8BxTOeXo8UnKVVqmtt0IG6sf sk_live_ptCDCVJSQfrlzeBXuUZAR9ol
